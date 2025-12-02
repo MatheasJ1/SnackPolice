@@ -5,28 +5,4 @@ The picture of the theif is taken and sent through a push notification using Hom
 
 The goal of this project is to combine linux tools, physical sensors, camera interaction, scripting and automation.
 
-Two possible setups : 
 
-### 1. Raspberry Pi OS + Python + Home assistant integration
-**Pros**
-- Full and easy access to I2C GPIO
-- Easy control of sensors and webcams
-- Home Assist. Integration provides necessary tools
-- Allows for automation customization
-
-**Cons**
-  - Requires more setup than flashing Home Assistant OS
-
-
-### 2. Home Assistant OS (Flashed directly)
-**Pros**
-- Simplified automation environment
-- Built in widgets and config settings
-
-**Cons**
-- Harder to run scripts, customize automation
-- Limited access and configuration with GPIO and I2C
-- Not suitable for sensor control
-
-### **Chosen Solution**
-I chose **Raspberry Pi OS + Python + Home Assistant Integration** because it offers full hardware control while still making notifications, webcame automation and everything work great.
